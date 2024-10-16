@@ -1,0 +1,89 @@
+Date: 27th August 2024
+----------------------
+fun main(args: Array<String>)
+{
+    println("====For-Loop====")
+    println("Both-Ends of range inclusive")
+    for(i in 1..5)
+    {
+        println("$i")
+    }
+    println("Upper End of range Excluded")
+    for(i in 1 until 5)
+    {
+        println("$i")
+    }
+    println("===============================")
+    
+    println("Reverse-Loop")
+    for(item in 5 downTo 1)
+    {
+        println(item)
+    }
+    println("===============================")
+    
+    println("Reverse-Loop with Step-Size")
+    for(item in 5 downTo 1 step 2)
+    {
+        println(item)
+    }
+    println("===============================")
+    
+    println("Iterating over a List")
+    val fruits = listOf("Apple","Banana","Cherry")
+    println("Printing Strings in a List")
+    for(fruit in fruits)
+    {
+        println("$fruit")
+    }
+    println()
+    println("Printing Indexs of Strings in a List")
+    for(fruit in fruits.indices)
+    {
+        println("Index: $fruit")
+    }
+    println("===============================")
+   
+    println("====While-Loop====")
+    var whilev1 = 5
+    while(whilev1 > 0)
+    {
+       println("Value is: $whilev1")
+       whilev1--
+    }
+    println("===============================")
+    
+    println("====DoWhile-Loop====")
+    var v1 = 5
+    do {
+        println("Value: $v1")
+        v1--
+    } while(v1 > 5)  // This loop will run only once since v1 is not greater than 5
+    
+    println()
+    
+    var v2 = 6
+    do {
+        println("Value: $v2")
+        v2--
+    } while(v2 > 0)  // This loop runs until v2 becomes 0
+    
+    println()
+    
+    var v3 = 1  // Start at 1
+	do {
+    	println("Value: $v3")
+    	v3++
+	} 
+    while(v3 <= 5)  // Loop until v3 is greater than 5
+    println("===============================")
+    
+    println("====Functions[Demo]====")
+    fun Demo()
+    {
+        println("Hello;World")
+    }
+    //Function Call
+    Demo()
+    println("===============================")
+}

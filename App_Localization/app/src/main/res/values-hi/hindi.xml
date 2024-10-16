@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">स्थानीयकरण उदाहरण</string>
+    <string name="name_label">नाम</string>
+    <string name="state_label">राज्य</string>
+    <string name="country_label">देश</string>
+    <string name="telugu_button">तेलुगु</string>
+    <string name="tamil_button">तमिल</string>
+    <string name="hindi_button">हिन्दी</string>
+</resources>

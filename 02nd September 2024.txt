@@ -1,0 +1,99 @@
+Date: 02nd September 2024
+-------------------------
+fun main() {
+    println("====2.Secondary Constructors====")
+    println()
+    
+    var a = Person("Dhanush",18)
+    a.intro()
+    var b = Person()
+    b.intro()
+    var c = Person("Eshwar")
+    c.intro()
+}
+
+class Person
+{
+    var name:String
+    var age:Int
+        
+    constructor(x:String, y:Int)
+    {
+       this.name = x;
+       this.age = y;
+    }
+    
+    constructor(x:String)
+    {
+        this.name = x;
+        this.age = 0;
+    }
+    
+    constructor()
+    {
+        this.name = "Jayanth"
+        this.age = 20
+    }
+    
+    fun intro()
+    {
+        println("My name is $name and age is $age")
+    }
+}
+-------------------------------------------------------------------------------------------------
+fun main() 
+{
+     println("====1.Primary Constructor====")
+     println()
+     var a = Person("Dhanush",18)
+     a.intro()
+     var b = Person()
+     b.intro()
+     var c = Person("Eshwar")
+     c.intro()
+}
+class Person(var name:String, var age:Int)
+{
+    constructor(x:String):this()
+    {
+        this.name = x
+        this.age = 0
+    }
+    constructor():this("Jayanth",20)
+    fun intro()
+    {
+        println("My name is $name and age is $age")
+    }
+}
+--------------------------------------------------------------------------------------------------
+fun main() 
+{
+    println("=====Inheritance=====")
+    val myRectangle = Rectangle(4.0, 5.0)
+    myRectangle.display()
+
+    val mySquare = Square(5.0)
+    mySquare.display()
+}
+
+open class Rectangle(val a: Double, val b: Double) 
+{
+    fun area(): Double 
+    {
+        return a * b
+    }
+
+    open fun display() 
+    {
+        println("Area of rectangle with dimensions $a*$b is ${area()}")
+    }
+}
+
+class Square(val side: Double) : Rectangle(side, side) 
+{
+    override fun display() 
+    {
+        println("Area of square with side length $side is ${area()}")
+    }
+}
+----------------------------------------------------------------------------------------------------------

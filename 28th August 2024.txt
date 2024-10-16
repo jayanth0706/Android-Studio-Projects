@@ -1,0 +1,125 @@
+fun main() 
+{
+	println("====Default-Arguments====")
+    fun DaSum(a:Int=10,b:Int=20)
+    {
+        val c = a+b
+        println(c)
+    }
+    DaSum(20,50)
+    DaSum()
+    
+    println()
+    
+    println("====Without Default-Arguments====")
+    fun WdaSum(a:Int,b:Int)
+    {
+        val c = a+b
+        println(c)
+    }
+    WdaSum(50,20)
+    //WdaSum()
+    //Above Line gives Error bcz no parameter for both a and b
+    
+    println()
+}
+
+====================================================================
+
+fun Sum(a:Int,b:Int): Int
+{
+    var sum = a+b
+    return sum
+}
+fun main()
+{
+    println("Return key is optional for Kotlin")
+    val Result = Sum(40,50)
+    println(Result)
+}
+
+
+====================================================================
+
+Q-> Create a function to convert temperatures from Celsius to Fahrenheit and vice versa.
+
+fun main() 
+{
+    Celsius(180)
+    Fahrenheit(34)
+}
+//Creating a Function to covert Fahrenheit to Celsius
+fun Celsius(fah: Int)
+{
+    var cel = ((5.0/9.0)*(fah-32))
+    var res = println("Celsius: %.2f".format(cel))
+    return res
+}
+//Creating a Function to covert Celsius to Fahrenheit
+fun Fahrenheit(cel: Int)
+{
+    var fah = ((9.0/ 5.0)*(cel+32))
+    var res = println("Fahrenheit: %.5f".format(fah))
+    return res
+}
+
+
+====================================================================
+
+Q-> Write a program for Factorial of a number
+
+fun main() 
+{
+    // Define the factorial function first
+    fun factorial(num: Int) : Long {
+        return if (num == 0 || num == 1) 1 else num * factorial(num - 1)
+    }
+
+    // Call the factorial function after it's defined
+    val result = factorial(5)
+    println("The factorial of 5 is $result")
+}
+
+
+====================================================================
+
+Q-> Write a Program to display the Fibonacci series
+
+fun main() {
+    val terms = 10  // Specify the number of terms
+
+    println("Fibonacci series up to $terms terms:")
+
+    var first = 0
+    var second = 1
+
+    for (i in 1..terms) {
+        print("$first ")
+
+        // Calculate the next term
+        val next = first + second
+        first = second
+        second = next
+    }
+}
+
+
+====================================================================
+
+
+Q-> Create a Method in a Class and Display the Method Result.
+
+class Student
+{
+    fun result()
+    {
+        println("Pending")
+    }
+}
+fun main()
+{
+    var s1 = Student()
+    s1.result()
+}
+
+====================================================================

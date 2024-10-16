@@ -1,0 +1,113 @@
+Date: 26th August 2024
+----------------------
+fun main() 
+{
+    println("====ControlFlow-Statements====/n")
+    println("====Simple-If====")
+    val temp = 25
+    if(temp>20)
+    {
+        println("Warm Day \n")
+    }
+    println("====If-Else(Ages)====")
+    val age = 18
+    if(age<13)
+    {
+        println("You are Child")
+    }
+    else if(age>=13 && age<=19)
+     {
+        println("You are Tennage")
+    }
+    else
+    {
+        println("You are adult")
+    }
+    
+    
+    
+    
+    println("\n====Question-1====")
+    val marks = 76
+    if(marks>=90)
+    {
+        println("Grade is A")
+    }
+    else if(marks>=85)
+    {
+        println("Grade is B")
+    }
+    else if(marks>=70)
+    {
+        println("Grade is C")
+    }
+    else
+    {
+        println("Grade is D")
+    }
+    
+    
+    
+    //Create a program for Calculator which includes all arithimatic opertors
+    println("\n====Calculator====")
+    var a = 22
+    var b = 0
+    var operator = "/"
+    if(operator == "+")
+    {
+        println("The Sum of $a and $b is ${a+b}")
+	}
+    else if(operator == "-")
+    {
+        println("The Substraction of $a and $b is ${a-b}")
+	}
+    else if(operator == "*")
+    {
+        println("The Multiplication of $a and $b is ${a*b}")
+	}
+    else if(operator == "/")
+    {
+        if(b!=0)
+        {
+            println("The Division of $a and $b is ${a/b}")
+        }
+        else
+        {
+            println("The Division of $a and $b is 0")
+        }
+	}
+    else
+    {
+        println("The Remainder of $a and $b is ${a%b}")
+	}
+    
+    
+    
+    
+    println("\nwhen Keyword performs as Switch Case")
+    println("\nProgram related to Week Days")
+    val dayOfWeek = 6
+    val dayName = when(dayOfWeek)
+    {
+        1->"Monday"
+        2->"Tuesday"
+        3->"Wednesday"
+        4->"Thrusday"
+        5->"Friday"
+        6->"Saturday"
+        7->"Sunday"
+        else->"Invalid Input"
+    }
+    println("Day of the week : $dayName")
+    
+    
+    
+    println("\nUsing when instead of if-Else for evenodd numbers")
+    val whenNumber = 19
+    when
+    {
+        whenNumber % 2 == 0 ->println("Even Number")
+        whenNumber % 2 != 0 ->println("Odd Number")
+        else -> println("Invalid Number")
+    }
+}

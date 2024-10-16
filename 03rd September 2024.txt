@@ -1,0 +1,40 @@
+Date: 03rd September 2024
+-------------------------
+fun main() 
+{
+    println("====Interface====")
+	val myRectangle = Rectangle(4.0,5.0)
+    myRectangle.display()
+    val mySquare = Square(4.0)
+    mySquare.display()
+}
+
+interface Shape
+{
+    fun area():Double
+}
+
+open class Rectangle(val a:Double, val b:Double): Shape
+{
+    override fun area(): Double
+    {
+        return a*b
+    }
+    open fun display()
+    {
+        println("Area of Rectangle with dimensions $a*$b is ${area()}")
+    }
+}
+
+class Square(side:Double): Rectangle(side,side)
+{
+    override fun area(): Double
+    {
+        return a * a  // Calculate the area of the square
+    }
+    open fun display1()
+    {
+        println("Area of Square is ${area()}")
+    }
+}
+-------------------------------------------------------------------------------------------------------

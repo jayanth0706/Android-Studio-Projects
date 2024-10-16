@@ -1,0 +1,80 @@
+Date:20th August 2024
+---------------------
+
+/*
+fun main() {
+    val a = 10
+    val b = 20
+    val res = "Sum of $a and $b is ${a+b}"
+     println(res)
+}
+*/
+
+    
+/*fun main() 
+{
+    //defining a char variable
+    val letter: Char = 'A'
+    println("$letter")
+    println('\n')
+    println('\$')
+    println('\\')
+    
+}
+*/
+
+/*fun main()
+{
+ 	//Kotlin String Data Type
+    //Escaped String[\n,\t,\b]
+    //Raw String["""======="""]
+    var name:String = """Jayanth
+Jayanth
+Jayanth
+Jayanth
+Jayanth"""
+    println(name)
+    
+}*/
+
+
+/*fun main()
+{
+ 	//Kotlin String Data Type
+    //Escaped String[\n,\t,\b]
+    //Raw String["""======="""]
+    var name:String = """Jayanth
+	Jayanth
+		Jayanth
+			Jayanth
+				Jayanth"""
+    println(name)
+ }
+ */
+
+
+/*
+fun main()
+{
+    //Kotlin String Data Type
+    //Escaped String[\n,\t,\b]
+    //Raw String["""======="""]
+    var name:String = """		Jayanth
+	Jayanth         Jayanth
+		Jayanth"""
+    println(name)
+}
+*/
+
+fun main()
+{
+    // Array of Intergers
+    val numbers = arrayOf(1, 2, 3, 4, 5)
+    println(numbers)
+    // Array of Strings
+    val words: Array<String> = arrayOf("Kotlin", "Java")
+    println(words)
+    // Array of Squares using Lamba Function
+    val squares = Array(5) {i -> i*i}
+    println(squares)
+}

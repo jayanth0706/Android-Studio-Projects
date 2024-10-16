@@ -1,0 +1,78 @@
+Date: 22nd August 2024
+----------------------
+fun main() 
+{
+    println("====Operators====");
+    println("\n")
+    var a = 10;
+    var b = 5;
+    println("====Arithmetic-Operators====");
+    println("Addition of $a and $b is ${a+b}");
+    println("Substraction of $a and $b is ${a-b}");
+    println("Multiplication of $a and $b is ${a*b}");
+    println("Division of $a and $b is ${a/b}");
+	println("Remainder of $a and $b is ${a%b}");
+    println("\n\n")
+    
+    println("====Relational-Operators====");
+    var isEqual = (a==b);
+    println("$a and $b are Equal \n$isEqual");
+    println("---------------------------------")
+    var isGreater = (a>b);
+    println("$a is greater than $b \n$isGreater");
+    println("---------------------------------")
+    var isLess = (a<b);
+    println("$a is less than $b \n$isLess");
+    println("---------------------------------")
+    var isGreaterEqual = (a>=b);
+    println("$a is greater or equals to $b \n$isGreaterEqual");
+    println("---------------------------------")
+    var isLessEqual = (a<=b);
+    println("$a is less than or equals to $b \n$isLessEqual");
+    println("---------------------------------")
+    var notEqual = (a!=b);
+    println("$a is not equals to $b \n$notEqual")
+    println("---------------------------------")
+	println("\n\n")
+    
+    println("====Assignment-Operators====")
+    var c = 2
+    var d = 3
+    c+=d
+    println("Updated Value of c is $c")
+    d+=c
+    println("Updated Value of d is $d")
+    c++
+    println("Incremented  Value of c is $c")
+    d++
+    println("Incremented Value of d is $d")
+    c--
+    println("Decremented  Value of c is $c")
+    d--
+    println("Decremented Value of d is $d")
+    println("\n\n")
+    
+    println("====BitWise-Operators====")
+    //Conjunction (and)
+    var BitWiseAnd = a and b
+    println("Bit-Wise And Value of $a and $b is $BitWiseAnd")
+    //Disjunction (or)
+    var BitWiseOr = a or b
+    println("Bit-Wise Or Value of $a and $b is $BitWiseOr")
+    //Exclusive disjunction (xor)	
+    var BitWiseXOR = a xor b
+    println("Bit-Wise Xor Value of $a and $b is $BitWiseXOR")
+    //Inversion
+    var BitWiseInv = a.inv()
+    println("Bit-Wise Inverse Value of $a and $b is $BitWiseXOR")
+    //Shift Left
+    var BitWiseShl = a shl b
+    println("Bit-Wise Shift Left Value of $a and $b is $BitWiseShl")
+    //Shift Right
+    var BitWiseShr = a shr b
+    println("Bit-Wise Shift Right Value of $a and $b is $BitWiseShr")
+    //Unsigned Shift Right
+    var BitWiseUshr = a ushr b
+    println("Bit-Wise Unsigned-Shift Right Value of $a and $b is $BitWiseUshr")
+    println("\n\n")
+   }

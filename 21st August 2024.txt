@@ -1,0 +1,121 @@
+Date: 21st August 2024
+----------------------
+
+/*
+fun main() {
+	println("Working on Arrays")
+    // Array of Integers
+    println("Array of Integers")
+    val numbers = arrayOf(1, 2, 3, 4, 5)
+    println(numbers.contentToString())
+	println("=================================================================")
+    // Array of Strings
+    println("Array of Strings")
+    val words: Array<String> = arrayOf("Kotlin", "Java")
+    println(words.contentToString())
+	println("=================================================================")
+    // Array of Squares using Lambda Function
+    println("Array of Squares using Lambda Function")
+    val squares = Array(5) { i -> i * i }
+    println(squares.contentToString())
+    println("=================================================================")
+    // Acessing elements
+    println("Acessing elements")
+    val firstNumber = numbers[0] //First Number(1) index has been stored
+    println(firstNumber)
+    val secondWord = words[1] //Second Word(Java) index has been stored
+    println(secondWord)
+    println("=================================================================")
+    // Modifying Elements
+    println("Modifying Elements")
+    numbers[0] = 100
+    println(numbers[0])
+    words[1] = "Jayanth"
+    println(words[1])
+    println("=================================================================")
+}
+*/
+
+/*
+// One Dimensional Array
+fun main()
+{
+    // Array of Integers
+    println("Array of Integers")
+    val numbers = arrayOf(1, 2, 3, 4, 5)
+    println("Numbers array using for loop")
+    for (num in numbers)
+    {
+        print(num)
+    }
+    println("=================================================================")
+}
+*/
+
+/*
+// Multi-Dimensional Array
+fun main()
+{
+    println("Creating a 2D Matrix Array")
+    val matrix: Array<Array<Int>> = arrayOf(arrayOf(1,2,3), arrayOf(4,5,6), arrayOf(7,8,9))
+    println("Element at row 0, column 1: ${matrix[0][0]}")
+    println("Element at row 0, column 1: ${matrix[0][1]}")
+    println("Element at row 0, column 1: ${matrix[0][2]}")
+    println("Element at row 0, column 1: ${matrix[1][0]}")
+    println("Element at row 0, column 1: ${matrix[1][1]}")
+    println("Element at row 0, column 1: ${matrix[1][2]}")
+    println("Element at row 0, column 1: ${matrix[2][0]}")
+    println("Element at row 0, column 1: ${matrix[2][1]}")
+    println("Element at row 0, column 1: ${matrix[2][2]}")
+    println("=================================================================")
+    
+    
+}
+*/
+
+/*
+fun main()
+{
+    println("Convert a numeric data type to another type \n1.toByte\n2.toShort")
+    println("Type Casting")
+    val x: Int = 100
+    val y:Long = x.toLong()
+    println(y)
+    println("=================================================================")
+}
+*/
+
+/*
+fun main()
+{
+    println("1.Safe-casting keyword [as]")
+    println("1.Safe-casting keyword [as?]")
+    var a = "Hello";
+    var b:String = a as String;
+    println("UnSafe Casting result : $b");
+    val c:Int = a as Int //Genearte [ClassCastException]
+    //println("UnSafe Casting result : $c");
+    val c:Int = a as? Int 
+    println("UnSafe Casting result : $c");
+    println("=================================================================")
+    
+}
+*/
+
+
+/*
+fun main() {
+    println("3x3 Matrix using For Loop
+    println("Creating a 3D Matrix Array")
+    val matrix: Array<Array<Int>> = arrayOf(arrayOf(1, 2, 3), arrayOf(4, 5, 6), arrayOf(7, 8, 9))
+    // Display 3x3 matrix Whole at a time
+    for (row in matrix) {
+        for (element in row) {
+            print("$element ")
+        }
+        println()  // Move to the next line after printing each row
+    }
+}
+println("=================================================================")
+
+*/

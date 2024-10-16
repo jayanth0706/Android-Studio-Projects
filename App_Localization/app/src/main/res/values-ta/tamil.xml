@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">உயர் தோற்றம்</string>
+    <string name="name_label">பெயர்</string>
+    <string name="state_label">நிலை</string>
+    <string name="country_label">நாடு</string>
+    <string name="telugu_button">தெலுங்கு</string>
+    <string name="tamil_button">தமிழ்</string>
+    <string name="hindi_button">இந்தி</string>
+</resources>

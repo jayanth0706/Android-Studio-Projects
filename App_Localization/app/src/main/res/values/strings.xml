@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Localization Example</string>
+    <string name="name_label">Name</string>
+    <string name="state_label">State</string>
+    <string name="country_label">Country</string>
+    <string name="telugu_button">Telugu</string>
+    <string name="tamil_button">Tamil</string>
+    <string name="hindi_button">Hindi</string>
+</resources>

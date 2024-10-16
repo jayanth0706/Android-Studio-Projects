@@ -1,0 +1,56 @@
+Date: 14th August 2024
+----------------------
+/*
+class Person
+{
+    var kotlin = "Kotlin"
+    fun displayInfo()
+    {
+        println(kotlin)
+    }
+}
+fun main()
+{
+    //object Creation in Kotlin
+    val Person = Person()
+    Person.displayInfo()
+}
+*/
+
+/*
+fun main(args:Array<String>) 
+{
+    var a = 50
+     println(a)
+   // var try = 20
+    //  print(try)
+   // using pre-defined components as Variables by using back tick
+   var try = 40
+    println(try)
+   
+   var name:String = "Pandu"
+    println(name)
+   val pie = 3.14
+    println(pie)
+   
+   //Initalization
+   var IA = 10
+    println(IA)
+   //var b:Int
+   //var c:Int
+   //d = a+b+c
+   
+   //Type Inference
+   var Ia = 10
+    println(Ia)
+   var Ib = "Hello"
+    println(Ib)
+   var Ic = 2.13
+    println(Ic)
+    
+   //
+   var message = "Hello!"
+   println(message)
+}
+//println(message)
+*/
