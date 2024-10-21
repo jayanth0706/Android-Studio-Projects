@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Academics Details"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/tenthDetailsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/title"
+        android:text="1. Secondary Education Details:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/tenthschool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/tenthDetailsTitle"
+        android:text="  School Name: Vijaya High School" />
+    <TextView
+        android:id="@+id/tenthyear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/tenthschool"
+        android:text="  Passed Year: 2020" />
+    <TextView
+        android:id="@+id/tenthper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/tenthyear"
+        android:text="  CGPA: 10.0" />
+    <TextView
+        android:id="@+id/tenthloc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/tenthper"
+        android:text="  Location: Hyderabad, Telangana" />
+
+
+    <TextView
+        android:id="@+id/interDetailsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/tenthloc"
+        android:text="2. Higher Secondary Education Details:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/interschool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/interDetailsTitle"
+        android:text="  College Name: Narayana Junior College" />
+    <TextView
+        android:id="@+id/interyear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/interschool"
+        android:text="  Passed Year: 2022" />
+    <TextView
+        android:id="@+id/interper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/interyear"
+        android:text="  Marks: 985/1000" />
+    <TextView
+        android:id="@+id/interloc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/interper"
+        android:text="  Location: Hyderabad, Telangana" />
+
+
+    <TextView
+        android:id="@+id/graDetailsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/interloc"
+        android:text="3. Under-Graduation Details:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/graschool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/graDetailsTitle"
+        android:text="  University Name: Lovely Professional University" />
+    <TextView
+        android:id="@+id/grayear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/graschool"
+        android:text="  Passed Year: 2026" />
+    <TextView
+        android:id="@+id/graper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/grayear"
+        android:text="  Current CGPA: 7.43" />
+    <TextView
+        android:id="@+id/graloc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/graper"
+        android:text="  Location: Jalandar, Punjab" />
+
+    <Button
+        android:id="@+id/abtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/graloc"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="Home"/>
+
+
+
+</RelativeLayout>
