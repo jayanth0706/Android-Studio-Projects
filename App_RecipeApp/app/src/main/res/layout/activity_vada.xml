@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="vada"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/tv2"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv1"
+            android:src="@drawable/img_6"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv2"
+            android:text="Ingredients: \n\n 1) 1 cup Urad Dal (Split White Lentils) \n
+2) 1 medium Onion or 2-3 shallots, finely chopped (optional) \n
+3) 1 teaspoon Cumin Seeds \n
+4) 1/2 teaspoon crushed Black Peppercorns \n
+5) 5-7 Curry Leaves, finely chopped, optional \n
+6) 1-2 Green Chillies, finely chopped \n
+7) A pinch of Asafoetida (hing), optional \n
+8) 2-3 tablespoons finely chopped Coriander Leaves \n
+9) Oil, for deep frying \n
+10) Salt to taste"/>
+
+        <TextView
+            android:id="@id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv3"
+            android:layout_marginTop="10dp"
+            android:text="Directions: \n\n
+1) Take 1 cup urad dal in a small deep pot. \n\n
+2) Wash it 2-3 times in water and then soak it in approx. 1½ cups water for 2-3 hours. Don’t soak it for more than 3 hours. If possible, use whole skinned urad dal instead of split urad dal. \n\n
+3) Drain excess water from the dal and transfer it to the jar of a blender/mixer grinder. \n\n
+4) Grind until the batter is fluffy and have smooth texture. Sprinkle few drops of cold water while grinding to grind it smoothly. Don’t add too much water while grinding (added less than 1/2 cup water). While grinding, scrap the sides with a spatula and sprinkle water as needed to grind it smoothly. Batter should be thick in consistency. \n\n
+5) Transfer batter into a bowl and beat it using your hand for 1-2 minutes in one direction. This process incorporates air which makes the vada light and fluffy. To check the batter is fluffy enough or not, drop a small portion of batter in the bowl filled with water and if it floats on the surface it means that batter is fluffy enough. \n\n
+6) Add 1 finely chopped onion (optional), 1 teaspoon cumin seeds, 1/2 teaspoon crushed black peppercorns, 5-7 chopped curry leaves, 1-2 chopped green chillies, a pinch of asafetida (hing), 2-3 tablespoons chopped coriander leaves and salt. \n\n
+7) Mix well. \n\n
+8) Heat oil in a deep kadai or frying pan over medium flame. Wet your palm with water. Take medium lemon sized portion of batter on your palm, press it gently and make thick round shaped vada. \n\n
+9) Make a whole in the center using your thumb. \n\n
+10) When the oil is medium hot, slowly slide vada in it; add 3-4 vadas at a time. Flip and deep-fry both the sides until they turn light golden brown and crisp. \n\n
+11) Drain excess oil and transfer them over kitchen paper on a plate. Repeat the same process for remaining batter. Spongy medu vada is ready to serve with hot sambar."/>
+    </RelativeLayout>
+
+</ScrollView>

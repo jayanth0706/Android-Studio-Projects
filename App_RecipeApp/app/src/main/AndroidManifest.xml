@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.App_RecipeApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".samosa"
+            android:exported="false" />
+        <activity
+            android:name=".paneer"
+            android:exported="false" />
+        <activity
+            android:name=".muttonmandi"
+            android:exported="false" />
+        <activity
+            android:name=".chickenmandi"
+            android:exported="false" />
+        <activity
+            android:name=".muttonbiryani"
+            android:exported="false" />
+        <activity
+            android:name=".chickenbiryani"
+            android:exported="false" />
+        <activity
+            android:name=".vada"
+            android:exported="false" />
+        <activity
+            android:name=".idly"
+            android:exported="false" />
+        <activity
+            android:name=".dosa"
+            android:exported="false" />
+        <activity
+            android:name=".Recipe_Activity"
+            android:exported="true" />
+    </application>
+
+</manifest>

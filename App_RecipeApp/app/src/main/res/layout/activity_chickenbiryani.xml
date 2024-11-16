@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chicken Biryani"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/tv2"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv1"
+            android:src="@drawable/img_7"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv2"
+            android:layout_marginTop="10dp"
+            android:text="Directions: \n\n
+1) This recipe needs half kg chicken (1.1 lbs.). Make few slits on all the
+chicken pieces and add to a large bowl. Then add: \n
+    * 3 tablespoons plain yogurt (Indian curd) \n
+    * 11/4 tablespoons ginger garlic paste \n
+    * 1/2 to 1 tablespoon garam masala (or biriyani masala) \n
+    * 1/2 teaspoon salt \n
+    * 1/4 teaspoon ground turmeric \n
+    * 1/2 to 1 teaspoon red chili powder (reduce for kids) \n
+    * 1 tablespoon lemon juice (optional) \n\n
+2) Mix everything well and marinate the chicken. Cover and set this aside for 1 hour. You can also rest it overnight in the fridge. \n\n
+3) Meanwhile add 2 cups basmati rice to a large pot and rinse it at least thrice. Drain and soak in fresh water for 30 mins. Drain to a colander after 30 mins. Optional - Soak a pinch of saffron strands in 2 tablespoons hot milk. \n\n
+4) Heat ghee or oil in a heavy bottom pot or pressure cooker. Make sure you use a large one for this. Using whole spices is optional but recommended. Use whatever you have. I use \n
+    * 1 bay leaf \n
+    * 4 green cardamoms \n
+    * 6 cloves \n
+    * 1 inch cinnamon piece \n
+    * 1 star anise \n
+    * 3/4 teaspoon shahi jeera (caraway seeds) \n
+    1 strand mace (optional, omit if you don't like)\n\n
+5) Add thinly sliced onions. On a medium heat, fry them stirring often until uniformly light brown.\n\n
+6) This is the correct color of the onions. Do not burn them as they leave a bitter taste. (check video) \n\n
+7) Add marinated chicken and saute until it becomes pale for 5 minutes. \n\n
+8) Lowert e ame comp ete y. Cover an coo unti t ec ic en is so tender and com letel cooked. \n\n
+9)Check if the chicken is cooked by pricking with a fork or knife. It has to be just cooked and not overdone. Evaporate any excess moisture left in the pot by cooking further without the lid. \n\n
+10) 10. Taste test and add more salt if needed. I added 1/4 more salt here. Add: \n
+    * 4 cup plain yogurt (Indian curd) \n
+    * 1 teaspoon garam masala (or biryani masala) \n
+    * 1/4 to 1/2 teaspoon red chili powder (optional) \n
+    * 1 slit green chili pepper (optional) \n
+    * 2 tablespoons chopped mint leaves (pudina) \n\n
+11) Mix everything well. Spread it evenly in a single layer. \n\n
+12) Layer drained rice all over the chicken. To a separate pot, pour 3 cups water and add 1/4 to 1/2 teaspoon salt. If cooking in a pot (not cooker), start with 3 cups water at this stage. Stir and taste the water. It must be slightly salty. Bring the water to a rolling boil. Pour 2 cups of this hot water across the sides of the cooker or pot. Pour rest of the water over the rice gently. (check video) \n\n
+13) Level the rice gently on top. Add 2 tablespoons more mint leaves.Do not mix up everything, the taste of the biryani cooked in the shown method is good. Optionally you can sprinkle 2 tablespoons fried onions and saffron soaked milk. \n\n
+14) Finally cover the pot or cooker. If cooking in a pot, cook on a medium heat until the rice is cooked completely. If the rice is undercooked and there is no more water left at the bottom of the pot, pour 1/4 to 1/2 cup boiling water at this stage. How much water to add depends on the quality of basmati rice. Cook covered until the biryani rice is perfectly done, grainy and fully cooked. Rest it covered for 15 mins. \nIf cooking in a cooker, cook until you hear 1 whistle. Later remove the cooker from the hot burner to stop cooking further. \n\n
+15) When the pressure releases naturally, open the lid. Gently fluff upwith a fork."/>
+
+    </RelativeLayout>
+
+</ScrollView>

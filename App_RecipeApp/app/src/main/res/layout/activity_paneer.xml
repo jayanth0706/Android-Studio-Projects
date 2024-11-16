@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Panner Tikki"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/tv2"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv1"
+            android:src="@drawable/img_11"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv2"
+            android:text="Ingredients: \n\n 1) ½ cup curd / yogurt, thick \n
+2) ½ tsp turmeric / haldi \n
+3) 1 tsp kashmiri red chilli powder / lal mirch powder \n
+4) ½ tsp coriander powder / daniya powder \n
+5) ¼ tsp cumin powder / jeera powder \n
+6) ½ tsp garam masala \n
+7) ½ tsp kasuri methi / dry fenugreek leaves, crushed \n
+8) ½ tsp chaat masala \n
+9) 1 tsp ginger - garlic paste \n
+10) ¼ tsp ajwain / carom seeds \n
+11) 2 tsp besan / gram flour, dry roasted \n
+12) 1 tbsp lemon juice \n
+13) salt to taste \n
+14) 3 tsp oil \n
+15) ½ onions, petals \n
+16) ½ capsicum, red and green, cubed \n
+17) 5 cubes paneer / cottage cheese"/>
+
+        <TextView
+            android:id="@id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv3"
+            android:layout_marginTop="10dp"
+            android:text="Directions: \n\n
+1) firstly, take ½ cup thick curd / yogurt. \n\n
+2) further add in all the spices along with salt. \n\n
+3) mix till all the spices are combined well with curd. \n\n
+4) now add ½ onion petals, ½ cubed capsicum (red and green) and 5 cubes paneer. \n\n
+5) also add 1 tsp of oil. \n\n
+6) mix gently till all the vegetables are coated well. \n\n
+7) furthermore, to marinate, cover and refrigerate for 30 minutes. \n\n
+8) after marination, insert the marinated paneer, capsicum and onions into wooden skewers. \n\n
+9) further, roast it on a hot tawa or grill in oven or tandoor. \n\n
+10) finally, sprinkle some chaat masala and serve paneer tikka immediately."/>
+    </RelativeLayout>
+
+</ScrollView>

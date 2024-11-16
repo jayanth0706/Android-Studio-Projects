@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Samosa"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/tv2"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv1"
+            android:src="@drawable/img_12"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv2"
+            android:text="Ingredients: \n\n 1) 2 cup maida \n
+2) 2 tbsp corn flour \n
+3) ½ tsp salt \n
+4) 2 cup water \n
+5) 2 onion, sliced \n
+6) 1 cup poha / avalakki / flattened rice, thin \n
+7) 1 chilli, finely chopped \n
+8) 1 tsp chilli powder \n
+9) ½ tsp cumin powder \n
+10) 1 tsp chaat masala \n
+11) ¾ tsp salt \n
+12) 2 tbsp coriander, finely chopped \n
+13) maida paste \n
+14) oil, for frying"/>
+
+        <TextView
+            android:id="@id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv3"
+            android:layout_marginTop="10dp"
+            android:text="Directions: \n\n
+1) firstly, in a large bowl take 2 cup maida, 2 tbsp corn flour and ½ tsp salt.
+2) add 2 to 2½ cup water and mix well using a whisk. \n\n
+3) whisk until a smooth lump-free batter is formed adding water as required. \n\n
+4) now grease the pan and pour a ladleful of batter on a hot pan. \n\n
+5) swirl once making sure the batter is uniformly spread. \n\n
+6) cook for a minute or until the sheet is cooked without browning. \n\n
+7) now flip over gently and continue to cook. \n\n
+8) finally, the samosa sheet is ready. you can cover and use it to prepare patti samosa or spring rolls. \n\n
+9) firstly, in a large bowl take 2 onion, 1 cup poha, 1 chilli and 1 tsp chilli powder. \n\n
+10) also add ½ tsp cumin powder, 1 tsp chaat masala, ¾ tsp salt and 2 tbsp coriander. \n\n
+11) mix well by squeezing onions. \n\n
+12) onion stuffing is ready. \n\n
+13) firstly, take the prepared samosa sheet and cut in half. \n\n
+14) fold into triangle sticking using maida. \n\n
+15) stuff the onion stuffing. make sure to stuff well else the samosa will be bland. \n\n
+16) seal the samosa using maida paste. \n\n
+17) deep fry the samosa in hot oil keeping the flame on low.\n\n
+18) stir occasionally, frying in between making sure to brown uniformly.\n\n
+19) it will take approximately 15-20 minutes to get crispy golden coloured samosa. \n\n
+20) drain off the samosa and enjoy irani samosa with tomato sauce. \n\n\n\n"/>
+    </RelativeLayout>
+
+</ScrollView>
