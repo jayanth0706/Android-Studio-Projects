@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Olympaid"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"/>
+
+        <ImageView
+            android:id="@+id/iv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv1"
+            android:src="@drawable/img_3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Computer Science and Engg.."
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_below="@id/iv1"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv2"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:text="1. Understand the Curriculum:"/>
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv3"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"
+            android:text="The core areas of CSE generally include: \n
+    1. Programming Languages: C, C++, Java, Python, etc. \n
+    2. Data Structures and Algorithms (DSA): Essential for problem-solving. \n
+    3. Operating Systems (OS): Concepts like processes, threads, scheduling. \n
+    4. Database Management Systems (DBMS): SQL, NoSQL databases. \n
+    5. Computer Networks: TCP/IP, HTTP, and network protocols. \n
+    6. Web Development: HTML, CSS, JavaScript, and frameworks. \n
+    7. Software Engineering: Software lifecycle and development methodologies. \n
+    8. Artificial Intelligence (AI) and Machine Learning (ML): Basics of AI and ML. \n
+    9. Cybersecurity: Fundamentals of security practices. \n
+    10. Mathematics: Linear algebra, calculus, discrete mathematics, and probability."/>
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv4"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:text="2. Develop Strong Programming Skills:"/>
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv5"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"
+            android:text="      1. Start with foundational languages like C and Python. \n
+    2. Practice regularly on platforms like: \n
+        LeetCode \n
+        Codeforces \n
+        HackerRank \n
+        GeeksforGeeks \n
+    3. Participate in coding contests to enhance competitive programming skills."/>
+
+        <TextView
+            android:id="@+id/tv7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv6"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:text="3. Gain Practical Experience:"/>
+
+        <TextView
+            android:id="@+id/tv8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv7"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"
+            android:text="      1. Projects: Build mini-projects to apply concepts: \n
+        Example: A weather app, a personal blog, or a simple e-commerce website. \n
+    2. Internships: Seek internships in software development, web development, or ML. \n
+    3.Use GitHub to showcase your projects."/>
+
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tb1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:subtitleTextColor="@color/black"
+        android:layout_marginTop="50dp"
+        app:title="Dashboard" />
+
+    <GridLayout
+        android:id="@+id/gl1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_below="@+id/tb1"
+        android:layout_centerHorizontal="true"
+        android:rowCount="7"
+        android:columnCount="1">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:text="Menu"
+            android:gravity="center"
+            android:layout_columnWeight="1"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:layout_rowSpan="1"
+            android:layout_columnSpan="1"
+            android:layout_height="75dp"
+            android:background="@color/Pear"/>
+
+        <Button
+            android:id="@+id/tv2"
+            android:layout_height="50dp"
+            android:layout_rowSpan="2"
+            android:layout_columnSpan="1"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="1dp"
+            android:backgroundTint="@color/Peridot"
+            android:gravity="center"
+            android:text="Start Preparing"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            app:cornerRadius="0dp" />
+
+        <Button
+            android:id="@+id/tv3"
+            android:text="Discuss"
+            android:gravity="center"
+            android:layout_columnWeight="1"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_rowSpan="3"
+            android:layout_columnSpan="1"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/Peridot"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/tv4"
+            android:text="Olympaid"
+            android:gravity="center"
+            android:layout_columnWeight="1"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_rowSpan="4"
+            android:layout_columnSpan="1"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/Peridot"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/tv5"
+            android:text="Your Carrer Path"
+            android:gravity="center"
+            android:layout_columnWeight="1"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_rowSpan="5"
+            android:layout_columnSpan="1"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/Peridot"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/tv6"
+            android:text="Credits"
+            android:gravity="center"
+            android:layout_columnWeight="1"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_rowSpan="6"
+            android:layout_columnSpan="1"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/Peridot"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/tv7"
+            android:text="Feedback"
+            android:gravity="center"
+            android:layout_columnWeight="1"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_rowSpan="7"
+            android:layout_columnSpan="1"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/Peridot"
+            app:cornerRadius="0dp"/>
+
+    </GridLayout>
+
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.App_Study"
+        tools:targetApi="31">
+        <activity
+            android:name=".dbms"
+            android:exported="false" />
+        <activity
+            android:name=".dsa"
+            android:exported="false" />
+        <activity
+            android:name=".java"
+            android:exported="false" />
+        <activity
+            android:name=".feedback"
+            android:exported="true" />
+        <activity
+            android:name=".credits"
+            android:exported="true" />
+        <activity
+            android:name=".yourcareerpath"
+            android:exported="true" />
+        <activity
+            android:name=".olympiad"
+            android:exported="true" />
+        <activity
+            android:name=".discuss"
+            android:exported="true" />
+        <activity
+            android:name=".startpreparing"
+            android:exported="true" />
+        <activity
+            android:name=".dashboard"
+            android:exported="true" />
+        <activity
+            android:name=".login"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
